@@ -31,7 +31,7 @@ app.locals.title = 'MARKET ON DEMAND';
 // respond with "hello investors" when a GET request is made to the homepage
 app.get('/', (req, res) => {
     res.render('index', {
-      msg: 'Welcome Investors!!!'
+      msg: 'Welcome Investors!!!$$$$'
     });
 });
 
