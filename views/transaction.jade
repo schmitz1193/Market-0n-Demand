@@ -1,4 +1,14 @@
 //transaction.jade
 extends index.jade
 block content
-  h2 #{msg}
+  .container
+    h1 TRANSACTIONS BUY OR SELL???$$$$
+    h2 To complete a transaction, please enter below:
+  form(method='POST')
+    input(type='text', name='symbol', placeholder='stock symbol')
+    input(type='text', name='quantity' placeholder='100')
+    label
+      input(type='checkbox', name='buy', value='buy')
+      label BUY
+      input(type='checkbox', name='sell', value='sell')
+      label SELL
