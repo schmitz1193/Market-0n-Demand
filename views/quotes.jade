@@ -1,0 +1,9 @@
+//quotes.jade
+extends index.jade
+block content
+  .container
+  h1 Welcome Investors!!$$$!
+  h2 To obtain a quote, please enter the stock symbol below
+  form(method='POST')
+    input(type='text', name='symbol', placeholder='stock symbol')
+    input(type='submit', value='Submit my quote request')
